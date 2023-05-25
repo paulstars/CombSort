@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         CombSort vortrag = new CombSort();
-        int[] array = {8, 4, 1, 56, 3, -44, 23, -6, 28, 0};
+        int[] array = {3,14,4,6,9,12};
         vortrag.sort(array);
 
         System.out.println("\n Array wurde sortiert!");
