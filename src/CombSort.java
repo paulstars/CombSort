@@ -41,7 +41,6 @@ public class CombSort {
 
             // Vergleiche alle Elemente mit gap
             for (int i = 0; i < n - gap; i++) {
-                System.out.println(i + "\t" + gap + "\n");
                 if (array[i] > array[i + gap]) {
 
                     // Wenn array[i] größer ist als array[i+gap], dann vertausche diese!
@@ -51,7 +50,6 @@ public class CombSort {
 
                     // Werte wurden vertauscht, daher wird swapped = true.
                     swapped = true;
-                    System.out.println("Swapped: "+ swapped + "\n");
                 }
             }
         }
