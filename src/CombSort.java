@@ -65,6 +65,5 @@ public class CombSort {
 /*
  * Dieser Code orientiert sich an dem von Rajat Mishra, unter:
  * https://www.geeksforgeeks.org/comb-sort/
- *
  */
 
